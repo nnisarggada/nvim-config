@@ -89,4 +89,4 @@ vim.keymap.set("n", "<leader>tv", ":ToggleTerm direction=vertical<CR>", { desc =
 -- format
 vim.keymap.set("n", "<leader>i", vim.lsp.buf.format)
 -- format on save
--- vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
+vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
