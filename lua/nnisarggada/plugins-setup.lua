@@ -115,10 +115,7 @@ return packer.startup(function(use)
   use("chrisbra/Colorizer")
 
   -- codeium
-  use({
-    "Exafunction/codeium.vim",
-    commit = "289eb724e5d6fab2263e94a1ad6e54afebefafb2",
-  })
+  use("Exafunction/codeium.vim")
 
   -- astro.build
   use("wuelnerdotexe/vim-astro")
